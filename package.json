@@ -1,6 +1,6 @@
 {
   "name": "furapi",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A collection of some Furry/Other APIs!",
   "main": "src/index.js",
   "scripts": {
