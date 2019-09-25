@@ -1,21 +1,34 @@
 {
   "name": "furapi",
-  "version": "1.0.2",
-  "description": "Temporary Placeholder",
-  "main": "index.js",
+  "version": "1.0.3",
+  "description": "A collection of some Furry/Other APIs!",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run prepare",
+    "prepare": "rm -rf src && tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FurryBotCo/FurAPI.git"
   },
-  "keywords": [],
+  "keywords": [
+    "furry",
+    "furrybot",
+    "furry-api"
+  ],
   "author": "Donovan_DMC",
-  "license": "AGPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/FurryBotCo/FurAPI/issues"
   },
   "homepage": "https://github.com/FurryBotCo/FurAPI#readme",
-  "dependencies": {}
+  "dependencies": {
+    "e6api": "^1.0.6",
+    "e9api": "^1.0.6",
+    "foxapi": "^1.0.1",
+    "furrybotapi": "^1.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.7"
+  }
 }
