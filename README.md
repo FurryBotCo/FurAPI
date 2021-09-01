@@ -1,3 +1,6 @@
+## This project has been abandoned.
+If you want a furry api, see [YiffyAPI](https://yiff.rest)
+
 This module is a combination of multiple apis, namely:<br>
 <br>
 https://npmjs.org/packages/furrybotapi<br>
